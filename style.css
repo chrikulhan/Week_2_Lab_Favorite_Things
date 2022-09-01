@@ -1,36 +1,44 @@
+p{
+    color: darkcyan;
+    font-size: 25px;
+}
 
-body {
-    background-color: rebeccapurple;
-    /*This is the font:*/
-    font-family: "display", sans-serif;
-    /*This is the font color:*/
+h1{
     color: white;
+    font-size: 48;
+/*    if you want to center something:*/
+    text-align: center
+}
+h2{
+    font-size: 30px;
+}
+body{
+    background-color: coral;
+/*    change the font for the whole page using "font-family", you can add multiple fonts separated by
+commas just in case a browser doesn't know a font.*/
+    /*(https://www.w3schools.com/css/css_font.asp)has a list of web safe fonts, so you can see what works well.*/
+    font-family: Ayuthaya, fantasy, Serif;
 }
 
-/*This will change anything with h1 to have these attributes, only for h1 elements:*/
-h1 {
-    /*This will center JUST the h1 elements, but will center all of them. */
-    text-align: center;
-    font-size: 48px;
+/*There is a long list of color choices on W3schools.com*/
+
+li{
+    list-style-type: square;
 }
 
-/*    This will round the corners of the picture, and only for the img*/
-img{
-    border-radius: 15px;
+a{
+    /*This would highlight behind the text of the anchor link vvv*/
+    background-color: lightpink;
+    /*This would change the text color of the anchor link vvv*/
+    color: red;
+    /*How to remove the default underlining  on the link: vvv Make if you remove the underlining, you
+    have some other indicator that the link is there.*/
+    text-decoration: none;
 }
 
-/*This messed up my ordered list numbers, and just made them square bullet points*/
-/*li{*/
-/*    list-style-type: square;*/
-/*}*/
-
-/*The way CSS works, is you create "selectors (body, h1, img, etc.), and then it selects all the elements on the page
-that match it. If you use a single word, the browser will try to match elements with that name.
- -body selector will include everything
- -h1 will be ONLY for h1 elements.
- -img will only be for img elements
- -list (li) items will be styles
-
- */
-
-
+/*How to style the entire unordered list:*/
+ul{
+    /*If you style an element, you also style the elements CONTAINED inside that element.*/
+    /*You can override the styling of the contained elements if you want to.*/
+    background-color: crimson;
+}
