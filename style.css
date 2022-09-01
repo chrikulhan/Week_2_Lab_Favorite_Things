@@ -1,10 +1,10 @@
 p{
-    color: darkcyan;
+    color: white;
     font-size: 25px;
 }
 
 h1{
-    color: white;
+    color: coral ;
     font-size: 48;
 /*    if you want to center something:*/
     text-align: center
@@ -13,7 +13,7 @@ h2{
     font-size: 30px;
 }
 body{
-    background-color: coral;
+    background-color: darkcyan;
 /*    change the font for the whole page using "font-family", you can add multiple fonts separated by
 commas just in case a browser doesn't know a font.*/
     /*(https://www.w3schools.com/css/css_font.asp)has a list of web safe fonts, so you can see what works well.*/
@@ -28,9 +28,9 @@ li{
 
 a{
     /*This would highlight behind the text of the anchor link vvv*/
-    background-color: lightpink;
+    background-color: #e3e020;
     /*This would change the text color of the anchor link vvv*/
-    color: red;
+    color: black;
     /*How to remove the default underlining  on the link: vvv Make if you remove the underlining, you
     have some other indicator that the link is there.*/
     text-decoration: none;
