@@ -1,0 +1,36 @@
+
+body {
+    background-color: rebeccapurple;
+    /*This is the font:*/
+    font-family: "display", sans-serif;
+    /*This is the font color:*/
+    color: white;
+}
+
+/*This will change anything with h1 to have these attributes, only for h1 elements:*/
+h1 {
+    /*This will center JUST the h1 elements, but will center all of them. */
+    text-align: center;
+    font-size: 48px;
+}
+
+/*    This will round the corners of the picture, and only for the img*/
+img{
+    border-radius: 15px;
+}
+
+/*This messed up my ordered list numbers, and just made them square bullet points*/
+/*li{*/
+/*    list-style-type: square;*/
+/*}*/
+
+/*The way CSS works, is you create "selectors (body, h1, img, etc.), and then it selects all the elements on the page
+that match it. If you use a single word, the browser will try to match elements with that name.
+ -body selector will include everything
+ -h1 will be ONLY for h1 elements.
+ -img will only be for img elements
+ -list (li) items will be styles
+
+ */
+
+
