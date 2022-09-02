@@ -4,7 +4,7 @@ p{
 }
 
 h1{
-    color: coral;
+    color: deepskyblue;
     font-size: 75px;
 /*    if you want to center something:*/
     text-align: center
@@ -59,7 +59,7 @@ ul{
 /*list items that don't have class or id are not given the style attributes listed above^^^*/
 
 #page-title{
-    text-shadow: 4px 4px mediumseagreen;
+    text-shadow: 4px 4px #b33c9b;
 /*    4px (how far down) 4px (how far to the right) the shadoews go, color ^^^*/
 }
 
@@ -69,10 +69,10 @@ ul{
 }
 
 .favorite-section{
-    background-color: darkorange;
-    /*to make border around a section, list the width of the border (3px) color (black) style (dotted or dashed
+    background-color: dodgerblue;
+    /*to make border around a section, list the width of the border (3px) color (black) style (solid, dotted, dashed
      or double, etc.)*/
-    border: 3px black double;
+    border: 3px black solid;
 /*    to space out the sections, add a margin 10px (add the space)*/
     margin: 10px;
 /*    to add space between the border and the content, add padding that will be applied to all the sides of the

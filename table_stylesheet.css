@@ -1,0 +1,42 @@
+/*table, tr, th, td{*/
+/*    border: 1px black solid;*/
+/*}*/
+/*there are gaps between the cells. ^^^*/
+
+/*Can change to have a single line between the cells: (make the border, set border-collapse value to collapse:vvv*/
+table, tr, th, td{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+/*    To space things out, you only need to style the table headers because the webpage will make sure all the
+columns have the same table width:*/
+th {
+    width: 100px;
+/*    add a particular style to the table header(th)*/
+    background-color: dodgerblue;
+}
+
+/*If we want to center the text in our table data cells:*/
+td{
+    text-align: center;
+}
+
+/*To make subtle, but alternating colors on data rows to make it easier to follow the data through to the
+row*/
+
+/*this will select every table row from the document and only choose the even ones(starts counting
+at zero: vvv*/
+
+tr:nth-child(even) {
+    background-color: yellow;
+}
+
+/*this will select every table row from the document and only choose the odd ones
+(starts counting at zero): vvv*/
+
+tr:nth-child(odd) {
+    background-color: cyan;
+}
+
+
