@@ -4,7 +4,7 @@ p{
 }
 
 h1{
-    color: coral ;
+    color: coral;
     font-size: 75px;
 /*    if you want to center something:*/
     text-align: center
@@ -41,4 +41,38 @@ ul{
     /*If you style an element, you also style the elements CONTAINED inside that element.*/
     /*You can override the styling of the contained elements if you want to.*/
     background-color: crimson;
+}
+/*this is used to give style to ID items on teh html file, only one with that designation on a page vvv*/
+#most-favorite-fruit{
+    background-color: deepskyblue;
+    text-decoration: cadetblue;
+}
+
+/*this is used to give style to the CLASS elements, can have multiple designations.*/
+.second-favorite-fruit{
+    background-color: chartreuse;
+}
+
+/*list items that don't have class or id are not given the style attributes listed above^^^*/
+
+#page-title{
+    text-shadow: 4px 4px mediumseagreen;
+/*    4px (how far down) 4px (how far to the right) the shadoews go, color ^^^*/
+}
+
+#favorite-music-name{
+    background-color: rebeccapurple;
+    text-shadow: 2px 1px cyan;
+}
+
+.favorite-section{
+    background-color: darkorange;
+    /*to make border around a section, list the width of the border (3px) color (black) style (dotted or dashed
+     or double, etc.)*/
+    border: 3px black double;
+/*    to space out the sections, add a margin 10px (add the space)*/
+    margin: 10px;
+/*    to add space between the border and the content, add padding that will be applied to all the sides of the
+dividers*/
+    padding: 10px;
 }
