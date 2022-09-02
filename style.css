@@ -24,6 +24,9 @@ commas just in case a browser doesn't know a font.*/
 
 li{
     list-style-type: square;
+    /*to space out here, use padding*/
+    padding: 5px;
+    margin: 5px;
 }
 
 a{
