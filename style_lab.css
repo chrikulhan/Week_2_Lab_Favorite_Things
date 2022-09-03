@@ -42,7 +42,7 @@ body{
 /*    reference: https://www.w3schools.com/cssref/pr_font_weight.asp*/
 }
 
-#most-favorite-food {
+#most-favorite-food{
     /*not sure how to make the oval encompass the word so it's centered, or how to
     text align under the other words.*/
     width: 160px;
@@ -54,5 +54,17 @@ body{
 }
 
 .favorite-image{
+    border-radius:50%
+/*    reference: https://www.w3schools.com/w3css/4/w3.css*/
+}
 
+table, tr, th, td{
+    border: 3px black solid;
+    border-collapse: collapse;
+}
+
+th{
+    width: 100px;
+    /*    add a particular style to the table header(th)*/
+    background-color: darkgreen;
 }
