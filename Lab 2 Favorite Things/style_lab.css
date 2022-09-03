@@ -68,3 +68,6 @@ th{
     /*    add a particular style to the table header(th)*/
     background-color: darkgreen;
 }
+td{
+    background-color: yellow;
+}
