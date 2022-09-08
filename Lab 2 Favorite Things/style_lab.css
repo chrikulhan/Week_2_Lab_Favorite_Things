@@ -65,7 +65,6 @@ table, tr, th, td{
 
 th{
     width: 100px;
-    /*    add a particular style to the table header(th)*/
     background-color: darkgreen;
 }
 td{
